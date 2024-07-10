@@ -34,11 +34,14 @@ body {
     margin-top: 0;
 }
 
+.kedua .no-bottom {    
+    margin-bottom: 0;
+}
+
 .kedua h1 {
     font-family: "League Gothic", sans-serif;
     align-items: center;
     display: flex;
-    margin-bottom: 0;
 }
 
 .kedua h2 {
