@@ -33,6 +33,12 @@ body {
     display: flex;
 }
 
+.kedua h2 {
+    font-family: "League Gothic", sans-serif;
+    align-items: center;
+    display: flex;
+}
+
 .kedua img {
     height: calc(100px - 2rem);
     aspect-ratio: 1 / 1;
