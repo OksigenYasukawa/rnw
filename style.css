@@ -16,8 +16,13 @@ body {
   }
 
 .rounded-xl2 {
-      border-radius: 1.5rem;
+      border-radius: 1.5rem 1.5rem 0 0;
 }
+
+.rounded-xl3 {
+      border-radius: 0 0 1.5rem 1.5rem ;
+}
+
 .pertama h1 {
     margin: 1.5rem;
     margin-bottom: 0;
@@ -31,9 +36,9 @@ body {
 
 .kedua h1 {
     font-family: "League Gothic", sans-serif;
-    height: 100px;
     align-items: center;
     display: flex;
+    margin-bottom: 0;
 }
 
 .kedua h2 {
@@ -46,6 +51,11 @@ body {
     height: calc(100px - 2rem);
     aspect-ratio: 1 / 1;
     margin-right: 1.5rem;
+}
+
+.kedua a {
+    color: black !important;
+    text-decoration: none;
 }
 
 .no-gutters {
